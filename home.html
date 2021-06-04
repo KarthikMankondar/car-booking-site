@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+<title>Car Rental System</title>
+</head>
+<link rel="stylesheet" href="home.css">
+<body>
+
+<div class="div1">
+<h1>ZOOP CARS</h1>
+<img src="Photos\sedan-512.png"height="30" width="50">
+<button class="button button1"><a href="signup.html">Signup</a></button>
+<button class="button button2"><a href="D:\STUDY MATERIAL\SEM 2\CSE 326\HTML\PROJECT\inlog.html">Log in</a></button>
+<button class="button button3">Manage Bookings</button>
+<button class="button button4">Popular Locations</button>	
+<button class="button button5"><a href="D:\STUDY MATERIAL\SEM 2\CSE 326\HTML\PROJECT\terms.html">Terms & Conditions</a></button>	
+</div>
+
+<div class="class div2">
+  <h1 id="h1"><center>YOUR RIDE TO DREAM</center><h1>
+  <center><button class="button button6">One stop destination for your dream Car</button></center>
+</div>
+
+
+<div class="div3">
+<form>
+<label for="Pickup Location">Pickup Location</label>
+<select id="Pickup Location" name="Pickup Location">
+	<option value="delhi">Delhi</option>
+	<option value="kolkata">Kolkata</option>
+	<option value="mumbai">Mumbai</option>
+	<option value="chennai">Chennai</option>
+</select>
+
+<label for="Pickup Date">Pickup Date</label>
+<input type="date" name="Pickup Date">
+<label for="Dropoff Date">Dropoff Date</label>
+<input type="date" name="Dropoff Date">
+<label>Timing</label>
+<input type="time" name="time">
+<input type="submit" value="Submit" onclick="login()">
+</form>
+</div>
+
+<div class="div div4">
+	<div class="div div41">
+		<center><p>Popualr Locations</p></center>
+	</div>	
+	<div class="div 42a">
+		<div class="div div421">
+			<a href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu/@13.0480438,79.9288063,10z/data=!3m1!4b1!4m5!3m4!1s0x3a5265ea4f7d3361:0x6e61a70b6863d433!8m2!3d13.0826802!4d80.2707184"><img src="chennai.jpeg" width="95%" height="35%"></a>
+		</div>
+
+		<div class="div div422">
+			<a href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0825223,72.7410974,11z/data=!3m1!4b1!4m5!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559"><img src="mumbai.jpeg" width="95%" height="35%"></a>
+		</div>
+	</div>
+
+	<div class="div div42b">
+		<div class="div div423">
+			<a href="https://www.google.com/maps/place/Delhi/@28.6927189,76.8111495,10z/data=!3m1!4b1!4m5!3m4!1s0x390d047309fff32f:0xfc5606ed1b5d46c3!8m2!3d28.6862738!4d77.2217831"><img src="delhi.jpeg" width="95%" height="35%"></a>
+		</div>
+
+		<div class="div div424">
+			<a href="https://www.google.com/maps/place/Kolkata,+West+Bengal/@22.6763858,88.0495259,10z/data=!3m1!4b1!4m5!3m4!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895"><img src="kolkata.jpeg" width="95%" height="35%"></a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+			function login()
+			{
+				alert("Your response have been saved.");
+			}
+		</script>
+</body>
+</html>

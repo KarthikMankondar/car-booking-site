@@ -1,0 +1,230 @@
+body
+{
+  margin: 0;
+}
+.div1
+{
+	background-color:lightblue;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.div1 h1
+{
+	font-family:Forte;
+	margin:0;
+	display: inline-block; /*Puts the heading and the button on the same line*/
+
+}
+
+.div1 a
+{
+	text-decoration: none; /*Removes the default underline of the href*/
+	color:white; /*Changes the text colour to white*/
+}
+
+.div1 abbr
+{
+	
+	text-decoration: none;	/*Removes the default underline of the abbr*/
+}
+
+/* Add a black background color to the top navigation bar */
+.div2 {
+  color: white;
+  font-family: forte;
+  background-color: #e9e9e9;
+  padding-top: 50px;
+  padding-bottom: 178px;
+  background-image: url(mazda.jpg);
+}
+
+
+.button1 {
+  margin-left:230px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button2 
+{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+.button3 
+{
+	background-color: #f44336;
+	border: none;
+	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+.button4 
+{
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+} 
+.button5 
+{
+	background-color: #555555;
+	border: none;
+	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+
+.button6
+{
+	background-color: #e8dede;
+	opacity: 0.7;	/*Sets the opacity*/
+	border: none;
+	border-radius: 50px;	/*For CSS rounded Corners*/
+	color: black;	/*Sets the color of the text*/
+  	padding: 15px 90px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+
+.div3
+{
+	background-color: #afbddb;
+	padding: 20px;
+	float:left;
+	width:45%;
+}
+
+input[type=submit]:hover{
+background-color:green;
+}
+
+
+
+input[type=text], select{
+width:100%;
+padding:10px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+
+input[type=date], select{
+width:100%;
+padding:10px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+
+input[type=date], select{
+width:100%;
+padding:10px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+
+input[type=time], select{
+width:100%;
+padding:10px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+
+input[type=submit], select{
+width:100%;
+padding:10px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px white;
+border-radius:4px;
+box-sizing:border-box;
+}
+
+.div4
+{
+  float: right;
+  width: 51%;
+  background-color:lightblue; 
+  height: 70%;
+}
+
+.div41
+{
+font-family: forte;
+color: black;
+height: 8%;
+}
+/*
+.div42a
+{
+  height: 50%;
+}
+*/
+.div421
+{
+  float: left;
+  margin-left: 3%;
+  width: 45%;
+}
+.div422
+{
+  float:right;
+  margin-right: 3%;
+  width: 45%;
+}
+
+.div423
+{
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 45%;
+}
+
+.div424
+{
+  float:right;
+  margin-right: 3%;
+  margin-top: 3%;
+  width: 45%;
+}

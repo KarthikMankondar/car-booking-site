@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> Transparent Login Form Design </title>
+    <link rel="stylesheet" type="text/css" href="login.css">   
+</head>
+    <body>
+        <script type="text/javascript">
+            function login()
+            {
+                var regd=document.forms["myform"]["regid"].value;
+                var pass=document.forms["myform"]["username"].value;
+                if(regd=="123456")
+                {
+                    if(pass=="password")
+                    {
+                        alert("Login Successfull");
+                        window.open("home.html");
+                    }
+                    else
+                    {
+                        alert("Incorrect Registration ID. or Password");
+                    }
+                }
+                else
+                {
+                    alert("Incorrect Registration ID or Password");
+                }
+            }
+        </script>
+    <div class="login-box">
+    <img src="D:\STUDY MATERIAL\SEM 2\CSE 326\HTML\PROJECT\Photos\59285177-car-icon-with-long-shadow.jpg" class="avatar">
+        <h1>Login Here</h1>
+            <form name="myform">
+            <p>Username</p>
+            <input type="text" name="regid" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="username" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login" onclick="login()" >
+<table>
+<!--     <tr>       <a href="#">forget password</a>    
+            </tr> <tr> <td><a href="#">create account</a>
+            </form></td></tr>	-->
+</table>
+        
+        
+        </div>
+    
+    </body>
+</html>
